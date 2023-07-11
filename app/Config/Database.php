@@ -26,7 +26,7 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'mysql',
+        'hostname' => 'mariadb',
         'username' => 'web',
         'password' => 'web',
         'database' => 'repository',
